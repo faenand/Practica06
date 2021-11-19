@@ -9,10 +9,10 @@ public class Valor {
       String[] array = new String[1];
       
       change(array);
-      System.out.println("El valor del array es: " + array[0]);
+      System.out.println("El estado del array es: " + array[0]);
     }
     //Metodo que cambia el valor al array
-    //Al pasar argumentos por valor, el objeto en si no puede cambiarse e imprime null
+    //Al pasar argumentos por valor, los elementos del arreglo pueden cambiarse y en este caso se imprime el mensaje
     public static void change(String[] array) {
        array[0] = "Se realizo el cambio de valor";
     }
